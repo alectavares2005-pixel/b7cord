@@ -1,0 +1,15 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Chat estilo Discord com canais de texto, chamadas de voz, vídeo e compartilhamento de tela (WebRTC).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "MIT"
+}
